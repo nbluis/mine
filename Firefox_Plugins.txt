@@ -1,0 +1,19 @@
+- Adblock Plus
+- Color Zilla
+- CSS Usage
+- Delicious Bookmarks
+- Dicionário para Ortogragia pt-BR
+- Firebug
+- Flagfox
+- Flashblock
+- FoxyProxy Basic
+- HackBar
+- Html Validator
+- iMacros for Firefox
+- Live Http Headers
+- Measure It
+- Modify Headers
+- Selenium IDE
+- Tamper Data
+- User Agent Swicher
+- Web Developer
