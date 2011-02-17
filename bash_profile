@@ -1,3 +1,5 @@
+#!/bin/sh
+
 #environment
 export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
 export PYTHON_HOME=/usr/local/Cellar/python/2.7.1
@@ -14,5 +16,12 @@ export PATH=$JAVA_HOME\bin:$PYTHON_HOME\bin:$SCALA_HOME\bin:$MAVEN_HOME\bin:$ANT
 alias tw="open -a TextWrangler"
 alias ..="cd .."
 
+#utility
+cl () { 
+	cd "$1"
+	ls -la
+}
+
 #rvm
 "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
