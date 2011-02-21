@@ -14,14 +14,14 @@ export PATH=$JAVA_HOME\bin:$PYTHON_HOME\bin:$SCALA_HOME\bin:$MAVEN_HOME\bin:$ANT
 
 #aliases
 alias tw="open -a TextWrangler"
-alias ..="cd .."
+alias ..="cd .. && pwd"
 
 #utility
 cl () { 
+	pwd
 	cd "$1"
 	ls -la
 }
 
 #rvm
 "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-
