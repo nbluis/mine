@@ -20,7 +20,7 @@ alias ..="cd .. && pwd"
 cl () { 
 	pwd
 	cd "$1"
-	ls -la
+	ls -lah
 }
 
 #rvm
