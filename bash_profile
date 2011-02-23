@@ -7,9 +7,10 @@ export SCALA_HOME=/usr/local/lib/scala
 export MAVEN_HOME=/usr/local/lib/apache-maven-3.0.2
 export ANT_HOME=/usr/local/lib/apache-ant-1.8.2
 export CLICOLOR=1
+export MKTOOLNIX=/Applications/Mkvtoolnix.app/Contents/MacOS/
 
 #path
-export PATH=$JAVA_HOME\bin:$PYTHON_HOME\bin:$SCALA_HOME\bin:$MAVEN_HOME\bin:$ANT_HOME\bin:$PATH
+export PATH=$JAVA_HOME\bin:$PYTHON_HOME\bin:$SCALA_HOME\bin:$MAVEN_HOME\bin:$ANT_HOME\bin:$MKTOOLNIX:$PATH
 
 
 #aliases
