@@ -19,6 +19,7 @@ export PATH=$JAVA_HOME/bin:$PYTHON_HOME/bin:$SCALA_HOME/bin:$MAVEN_HOME/bin:$ANT
 alias tw="open -a TextWrangler"
 alias ..="cd .. && pwd"
 alias mongorun="mongod run --config /usr/local/Cellar/mongodb/1.8.1-x86_64/mongod.conf"
+alias redisrun="redis-server /usr/local/etc/redis.conf"
 
 #utility
 cl () { 
