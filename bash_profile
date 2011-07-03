@@ -11,9 +11,10 @@ export ANT_HOME=/usr/local/lib/apache-ant-1.8.2
 export CLICOLOR=1
 export MKTOOLNIX=/Applications/Mkvtoolnix.app/Contents/MacOS/
 export PORTS_TOOL=/opt/local/bin:/opt/local/sbin
+export POSTGRES_HOME=/opt/local/lib/postgresql84
 
 #path
-export PATH=$JAVA_HOME/bin:$PYTHON_HOME/bin:$SCALA_HOME/bin:$MAVEN_HOME/bin:$ANT_HOME/bin:$MKTOOLNIX:$NODE_HOME/lib:$PORTS_TOOL:$PATH
+export PATH=$JAVA_HOME/bin:$PYTHON_HOME/bin:$SCALA_HOME/bin:$MAVEN_HOME/bin:$ANT_HOME/bin:$MKTOOLNIX:$NODE_HOME/lib:$PORTS_TOOL:$POSTGRES_HOME/bin:$PATH
 
 #aliases
 alias tw="open -a TextWrangler"
@@ -21,6 +22,7 @@ alias kmd="open -a 'Komodo Edit'"
 alias ..="cd .. && pwd"
 alias mongo.start="sudo mongod run --config /usr/local/Cellar/mongodb/1.8.1-x86_64/mongod.conf"
 alias redis.start="sudo redis-server /usr/local/etc/redis.conf"
+alias postgres.start="pg_ctl -D /opt/local/var/db/postgresql84/defaultdb -l postgress.log start"
 
 #utility
 cl () { 
