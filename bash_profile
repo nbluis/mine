@@ -22,7 +22,7 @@ alias kmd="open -a 'Komodo Edit'"
 alias ..="cd .. && pwd"
 alias mongo.start="sudo mongod run --config /usr/local/Cellar/mongodb/1.8.1-x86_64/mongod.conf"
 alias redis.start="sudo redis-server /usr/local/etc/redis.conf"
-alias postgres.start="pg_ctl -D /opt/local/var/db/postgresql84/defaultdb -l postgress.log start"
+alias pg="pg_ctl -D /opt/local/var/db/postgresql84/defaultdb -l /opt/local/var/db/postgresql84/defaultdb/postgres.log"
 
 #utility
 cl () { 
