@@ -18,8 +18,6 @@ export PLAY_FRAMEWORK=/usr/local/Cellar/play/1.2.3
 export PATH=$JAVA_HOME/bin:$PYTHON_HOME/bin:$SCALA_HOME/bin:$MAVEN_HOME/bin:$ANT_HOME/bin:$MKTOOLNIX:$NODE_HOME/lib:$PORTS_TOOL:$POSTGRES_HOME/bin:PLAY_FRAMEWORK\bin:$PATH
 
 #aliases
-alias tw="open -a TextWrangler"
-alias kmd="open -a 'Komodo Edit'"
 alias ..="cd .. && pwd"
 alias mongo.start="sudo mongod run --config /usr/local/Cellar/mongodb/1.8.1-x86_64/mongod.conf"
 alias redis.start="sudo redis-server /usr/local/etc/redis.conf"
