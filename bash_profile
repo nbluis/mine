@@ -16,7 +16,7 @@ export PLAY_FRAMEWORK=/usr/local/Cellar/play/1.2.3
 export BREW_HOME=/usr/local/Cellar
 
 #path
-export PATH=$JAVA_HOME/bin:$PYTHON_HOME/bin:$SCALA_HOME/bin:$MAVEN_HOME/bin:$ANT_HOME/bin:$MKTOOLNIX:$NODE_HOME/lib:$PORTS_TOOL:$POSTGRES_HOME/bin:PLAY_FRAMEWORK\bin:$PATH
+export PATH=$JAVA_HOME/bin:$PYTHON_HOME/bin:$SCALA_HOME/bin:$MAVEN_HOME/bin:$ANT_HOME/bin:$MKTOOLNIX:$NODE_HOME/lib:$PORTS_TOOL:$POSTGRES_HOME/bin:PLAY_FRAMEWORK\bin:/usr/local/sbin:$PATH
 
 #aliases
 alias ..="cd .. && pwd"
