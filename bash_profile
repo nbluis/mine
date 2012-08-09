@@ -25,6 +25,7 @@ alias redis.start="sudo redis-server /usr/local/etc/redis.conf"
 alias pg="pg_ctl -D /opt/local/var/db/postgresql84/defaultdb -l /opt/local/var/db/postgresql84/defaultdb/postgres.log"
 alias apache2="sudo apachectl"
 alias finder="open -a 'Finder'"
+alias tmreload="osascript -e 'tell app \"TextMate\" to reload bundles'"
 
 #utility
 cl () { 
