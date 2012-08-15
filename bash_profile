@@ -26,6 +26,7 @@ alias pg="pg_ctl -D /opt/local/var/db/postgresql84/defaultdb -l /opt/local/var/d
 alias apache2="sudo apachectl"
 alias finder="open -a 'Finder'"
 alias tmreload="osascript -e 'tell app \"TextMate\" to reload bundles'"
+alias sub="open -a 'Sublime Text 2'"
 
 #utility
 cl () { 
