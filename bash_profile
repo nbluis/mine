@@ -9,6 +9,7 @@ export SCALA_HOME=/usr/local/lib/scala
 export MAVEN_HOME=/usr/local/lib/apache-maven-3.0.2
 export ANT_HOME=/usr/local/lib/apache-ant-1.8.2
 export CLICOLOR=1
+export PS1="\e[0;33m[\u@\h \W]\$ \e[m "
 export MKTOOLNIX=/Applications/Mkvtoolnix.app/Contents/MacOS/
 export PORTS_TOOL=/opt/local/bin:/opt/local/sbin
 export POSTGRES_HOME=/opt/local/lib/postgresql84
