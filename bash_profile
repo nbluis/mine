@@ -29,10 +29,10 @@ alias apache2="sudo apachectl"
 alias finder="open -a 'Finder'"
 alias tmreload="osascript -e 'tell app \"TextMate\" to reload bundles'"
 alias sub="open -a 'Sublime Text 2'"
-alias b2g="open '/Users/eduardobohrer/Library/Application Support/Firefox/Profiles/csd4golj.default/extensions/r2d2b2g@mozilla.org/resources/r2d2b2g/data/mac64/B2G.app'"
+alias b2g="open '/Users/eduardobohrer/Library/Application Support/Firefox/Profiles/csd4golj.default/extensions/r2d2b2g@mozilla.org/resources/r2d2b2g/data/mac64/B2G.app' --args"
 
 #utility
-cl () { 
+function cl () {
 	pwd
 	cd "$1"
 	ls -lah
