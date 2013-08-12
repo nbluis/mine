@@ -3,7 +3,7 @@
 #environment
 export BREW_HOME=/usr/local/Cellar
 export NODE_HOME=$BREW_HOME/node/0.4.7
-export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/1.6.0_29-b11-402.jdk/Contents/Home
 export PYTHON_HOME=/opt/local/Library/Frameworks/Python.framework/Versions/2.7
 export SCALA_HOME=/usr/local/lib/scala
 export MAVEN_HOME=/usr/local/lib/apache-maven-3.0.2
@@ -13,7 +13,7 @@ export PS1="\e[0;33m[\u@\w]\$ \e[m "
 export MKTOOLNIX=/Applications/Mkvtoolnix.app/Contents/MacOS/
 export PORTS_TOOL=/opt/local/bin:/opt/local/sbin
 export POSTGRES_HOME=/usr/local/Cellar/postgresql/9.2.4
-export PLAY_FRAMEWORK=/usr/local/Cellar/play/1.2.3
+export PLAY_FRAMEWORK=/usr/local/Cellar/play/2.1.2
 export BREW_HOME=/usr/local/Cellar
 export NPM_BIN=/usr/local/share/npm/bin
 
@@ -40,3 +40,6 @@ function cl () {
 
 #rvm
 "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+#NVM
+[[ -s ~/.nvm/nvm.sh ]] && . ~/.nvm/nvm.sh
