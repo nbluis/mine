@@ -14,11 +14,10 @@ export MKTOOLNIX=/Applications/Mkvtoolnix.app/Contents/MacOS/
 export PORTS_TOOL=/opt/local/bin:/opt/local/sbin
 export POSTGRES_HOME=/usr/local/Cellar/postgresql/9.2.4
 export PLAY_FRAMEWORK=/usr/local/Cellar/play/2.1.2
-export BREW_HOME=/usr/local/Cellar
 export NPM_BIN=/usr/local/share/npm/bin
 
 #path
-export PATH=$JAVA_HOME/bin:$PYTHON_HOME/bin:$SCALA_HOME/bin:$MAVEN_HOME/bin:$ANT_HOME/bin:$MKTOOLNIX:$NODE_HOME/lib:$PORTS_TOOL:$POSTGRES_HOME/bin:PLAY_FRAMEWORK\bin:/usr/local/sbin:$NPM_BIN:$PATH
+export PATH=$JAVA_HOME/bin:$PYTHON_HOME/bin:$SCALA_HOME/bin:$MAVEN_HOME/bin:$ANT_HOME/bin:$MKTOOLNIX:$PORTS_TOOL:$POSTGRES_HOME/bin:PLAY_FRAMEWORK\bin:/usr/local/sbin:$NPM_BIN:$PATH
 
 #aliases
 alias ..="cd .. && pwd"
@@ -29,7 +28,7 @@ alias apache2="sudo apachectl"
 alias finder="open -a 'Finder'"
 alias tmreload="osascript -e 'tell app \"TextMate\" to reload bundles'"
 alias sub="open -a 'Sublime Text 2'"
-alias b2g="open '/Users/eduardobohrer/Library/Application Support/Firefox/Profiles/csd4golj.default/extensions/r2d2b2g@mozilla.org/resources/r2d2b2g/data/mac64/B2G.app' --args"
+alias b2g="open 'Library/Application Support/Firefox/Profiles/csd4golj.default/extensions/r2d2b2g@mozilla.org/resources/r2d2b2g/data/mac64/B2G.app' --args"
 
 #utility
 function cl () {
